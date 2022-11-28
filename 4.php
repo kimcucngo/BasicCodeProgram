@@ -75,4 +75,3 @@ var_dump($dataCustomer);
 $dataCustomer = (object)$dataCustomer;
 $checkObject = is_object($dataCustomer);
 var_dump($checkObject);
-
