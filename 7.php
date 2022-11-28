@@ -27,4 +27,3 @@ if ($seku1 !== 'fg'){
         echo $number1.'donatuban';
     }
 }
-
