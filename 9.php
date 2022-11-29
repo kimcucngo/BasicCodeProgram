@@ -54,3 +54,14 @@ if ($oddCount > 0){
 }else{
     echo 'There are not odd number <br/>';
 }
+echo '<hr/>';
+$n = 10;
+$result = 1;
+if ($n > 0){
+    for ($i = 1; $i <= $n; $i++){
+        $result *= $i;
+    }
+    echo $n.'!='.$result;
+}else{
+    echo 'Wrong';
+}
