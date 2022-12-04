@@ -12,9 +12,9 @@ echo $age == 18?'You can drive motobike':'You can not drive motobike';
 $number = 9;
 if ($number <= 10){
 ?>
-    <h3>Title 1<h3>
-    <h3>Title 2<h3>
-    <p>Content<p>
+    <h3>Title 1</h3>
+    <h3>Title 2</h3>
+    <p>Content</p>
 <?php
 }else{
 ?>
@@ -24,9 +24,9 @@ if ($number <= 10){
 echo '<hr/>';
 if ($number <= 10):
 ?>
-    <h3>Title 1<h3>
-    <h3>Title 2<h3>
-    <p>Content<p>
+    <h3>Title 1</h3>
+    <h3>Title 2</h3>
+    <p>Content</p>
 <?php
 else:
 ?>
