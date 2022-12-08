@@ -114,17 +114,17 @@ if (!empty($array) && is_array($array)){
             if (!empty($item) && is_array($item)){
                 echo 'customer information'.'<br/>';
                 foreach ($item as $subArr){
-                    if(is_array($subArr)){
-                    }
-                    else{
-                        echo $subArr.'<br/>';
-                    }
+                if(is_array($subArr)){
+                }
+                else{
+                echo $subArr.'<br/>';
+                }
                 }
             }
         else{
             echo $item.'<br/>';
         }
         }
-    echo '<hr/>';
+        echo '<hr/>';
     }
 }
